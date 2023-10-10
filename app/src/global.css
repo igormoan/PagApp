@@ -1,0 +1,35 @@
+@import url('./colors.css');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+:root {
+  --principais-verde-dark: #034A2A;
+  --cinzas-cinza-1: #343447;
+  --cinzas-cinza-2: #3F3F55;
+  --principais-rosa-normal: #DA0175;
+  --cinzas-cinza-8: #F8F8F9;
+  --input-placeholder: #667085;
+  --input-label: #344054;
+  --cinza-cinza-6: #DEDEE9;
+}
+
+html {
+  background-color: #F8F8F9;
+}
+
+.container-menu {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  gap: 32px;
+}

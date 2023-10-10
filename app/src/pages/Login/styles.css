@@ -1,0 +1,30 @@
+.login-container-main {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.login-container-left {
+    position: static;
+    height: 100%;
+    width: 40%;
+    background-image: url('/login-left-image.jfif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.login-container-left span {
+    color: var(--principais-verde-dark);
+    font-size: 1.5rem;
+    font-weight: 600;
+    position: relative;
+    top: 5rem;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+}

@@ -1,0 +1,58 @@
+.edit-icon {
+    width: 35px;
+    height: 38px;
+    background-image: url('./assets/edit-billing.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.delete-icon {
+    width: 35px;
+    height: 38px;
+    background-image: url('./assets/delete-billing.svg');
+    margin-left: 10px;
+    cursor: pointer;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.updown-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    background-image: url('../../../../assets/arrow-updown.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.billingtable-tag {
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: center;
+    width: 99px;
+    height: 19px;
+    padding: 0px 8px 0px 8px;
+    border-radius: 8px;
+    gap: 4px;
+
+}
+
+.billingtable-overdue-tag {
+    color: #971D1D;
+    background-color: #FFEFEF;
+}
+
+.billingtable-paid-tag {
+    color: #1FA7AF;
+    background-color: #EEF6F6;
+}
+
+.billingtable-payable-tag {
+    color: #C5A605;
+    background-color: #FCF6DC;
+}

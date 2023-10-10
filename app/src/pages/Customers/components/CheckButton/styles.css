@@ -1,0 +1,18 @@
+.bollBox {
+    width: 24px;
+    height: 24px;
+    border-radius: 100px;
+    background-color: var(-cinza-cinza-6);
+
+    color: var(--cinza-cinza-6);
+    font-style: italic;
+    font-size: 0.8rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bollBox.full {
+    background-color: #0E8750;
+}

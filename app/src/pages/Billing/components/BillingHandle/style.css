@@ -1,0 +1,97 @@
+.main-container-billing-handle {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 10px;
+}
+
+.container-billing-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-right: auto;
+}
+
+.container-billing-title h2 {
+    color: var(--cinzas-cinza-2, #3F3F55);
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+}
+
+.container-billing-right {
+    display: flex;
+    width: 50%;
+    gap: 2rem;
+    flex-direction: row-reverse;
+    align-items: center;
+    
+}
+
+.add-customer-button {
+    opacity: 0.9;
+    width: 40%;
+}
+
+.add-customer-button:hover {
+    cursor: s;
+    scale: 1.05;
+    opacity: 1;
+}
+
+.billing-filter {
+    cursor: pointer;
+    opacity: 0.9;
+}
+.billing-filter:hover {
+    scale: 1.1;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.container-billing-input {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 2.5rem;
+    position: static;
+}
+
+.container-billing-input input {
+    position: static;
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 4px 4px 0px #ACD9C540;
+}
+
+.container-billing-input input::placeholder {
+    color: var(--cinzas-cinza-3, #747488);
+    font-family: Nunito;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.container-billing-input img {
+    position: relative;
+    opacity: 0.9;
+    width: 1.5rem;
+    right: 1.8rem;
+}
+
+.container-billing-input img:hover {
+    cursor: pointer;
+    scale: 1.1;
+    opacity: 1;
+} 

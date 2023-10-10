@@ -1,0 +1,46 @@
+.charge-icon {
+    width: 35px;
+    height: 38px;
+    background-image: url('../../../../assets/charge-icon.svg');
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.updown-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    background-image: url('../../../../assets/arrow-updown.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.clienttable-tag {
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: center;
+    width: 99px;
+    height: 19px;
+    padding: 0px 8px 0px 8px;
+    border-radius: 8px;
+    gap: 4px;
+
+}
+
+.clienttable-late-tag {
+    color: #971D1D;
+    background-color: #FFEFEF;
+}
+
+.clienttable-ok-tag {
+    color: #1FA7AF;
+    background-color: #EEF6F6;
+}
+
+.updown-icon:hover {
+    scale: 1.1;
+    opacity: 0.9;
+}

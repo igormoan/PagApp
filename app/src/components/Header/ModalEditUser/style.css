@@ -1,0 +1,129 @@
+.close-icon-edit {
+    position: absolute;
+    right: 1rem;
+    top: 0.8rem;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.close-icon-edit:hover{
+  scale: 1.1;
+  opacity: 1;
+}
+
+.edit-user-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: var(--cinzas-cinza-1);
+    font-weight: 700;
+  }
+
+  .edit-user-div-input label {
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.8rem;
+}
+
+.edit-user-div-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+  position: relative;
+}
+
+.edit-user-div-cpf-tel {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 2rem
+}
+
+.edit-user-div-cpf-tel div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border: none;
+    width: 45%;
+}
+
+.edit-user-div-cpf-tel div input {
+    font-family: 'Inter', sans-serif;
+    height: 2.5rem;
+    padding: 1rem;
+    border: 1px solid rgba(208, 213, 221, 1);
+    border-radius: 0.25rem;
+}
+
+.edit-user-div-cpf-tel label {
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.8rem;
+  }
+
+.edit-user-div-input input {
+  font-family: 'Inter', sans-serif;
+  height: 2.5rem;
+  padding: 1rem;
+  border: 1px solid rgba(208, 213, 221, 1);
+  border-radius: 0.25rem;
+}
+
+  .error-input {
+    border: 1px solid red;
+  }
+
+  .modal-error-message {
+    font-family: 'Nunito', sans-serif;
+    color: red;
+    font-weight: 800;
+    margin-top: 0.2rem;
+    font-size: 0.8rem;
+    animation: error-enter 1s ease 0s 1 normal forwards;
+    }
+
+    @keyframes error-enter {
+      0% {
+        opacity: 0;
+        transform: translateX(-250px);
+      }
+    
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    .modal-edit-sucess {
+      font-family: 'Nunito', sans-serif;
+      color: green;
+      font-weight: 800;
+      margin-top: 0.2rem;
+      font-size: 0.8rem;
+      animation: success-enter 1s ease 0s 1 normal forwards;
+      }
+  
+      @keyframes success-enter {
+        0% {
+          opacity: 0;
+          transform: translateX(-250px);
+        }
+      
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+
+    .eye-edit-image {
+      opacity: 0.9;
+      cursor: pointer;
+      width: 1.2rem;
+      position: absolute;
+      top: 52%;
+      right: 10px;
+    }
+
+    .eye-edit-image:hover {
+      opacity: 1;
+      scale: 1.1;
+    }

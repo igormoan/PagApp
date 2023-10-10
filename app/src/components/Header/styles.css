@@ -1,0 +1,63 @@
+.container_cabecalho {
+    display: flex;
+    border-bottom: 1px solid #ACD9C5;
+    align-items: center;
+    height: 110px;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    padding: 0 130px 10px 150px;
+    z-index: 4;
+    background-color: var(--cinzas-cinza-8);
+
+}
+
+.container_cabecalho h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 33.8px;
+    text-align: center;
+}
+
+.avatar-name {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    height: 48px;
+    align-items: center;
+    color: rgba(14, 135, 80, 1);
+    font-family: Nunito;
+}
+
+.avatar-name img {
+    cursor: pointer;
+}
+
+.avatar {
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(14, 135, 80, 1);
+    text-align: center;
+}
+
+.radius {
+    border-radius: 50%;
+    display: flex;
+    background-color: lightgray;
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.header-username {
+    text-transform: capitalize;
+}

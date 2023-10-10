@@ -1,0 +1,149 @@
+@import url('./Modal.global.css');
+
+.modal {
+    width: 100%;
+    height: 100vh;
+    padding: 0 4%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(4px);
+
+}
+
+.modal.centerFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal .modalBox {
+    width: clamp(250px, 100%, 500px);
+    padding: 40px;
+    border-radius: 18px;
+    background-color: white;
+    position: relative;
+}
+
+
+.iconLogoCharge {
+    width: 32px;
+    height: 32px;
+
+
+}
+
+.buttonClose {
+    width: 20px;
+    height: 18px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+
+
+.modal .titleBox .title {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+
+
+}
+
+.modal .icon {
+    font-size: 1.7rem;
+    position: absolute;
+    right: 5px;
+    top: -5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.modal .flex {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.modal .flexDoubleInLine {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.modal textarea {
+    height: 85px;
+}
+
+.modal .inputDescription {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(30, 30, 30);
+}
+
+.specialDiv {
+    width: 100%;
+    user-select: none;
+}
+
+.specialDiv>.inputDescription {
+    margin-bottom: 10px;
+}
+
+.specialDiv .radioFlex:first-of-type {
+    margin-bottom: 5px;
+}
+
+.radioFlex {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+
+    background-color: rebeccapurple;
+    background-color: #F0F0F5;
+    padding: 10px 2%;
+    border-radius: 10px;
+}
+
+.radioFlex>input {
+    display: none;
+}
+
+
+.status {
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(cinzas-cinza-2);
+}
+
+.options {
+    width: 100%;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+input[type="date"] {
+    outline: none;
+    width: 100%;
+    height: 35px;
+    padding: 0 10px;
+    border-radius: 8px;
+    border: 1px solid var(--cinza-cinza-6);
+}

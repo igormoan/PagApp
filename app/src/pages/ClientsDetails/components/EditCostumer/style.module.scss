@@ -1,0 +1,132 @@
+.container_modal_edit {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 40;
+    top: 0;
+    left: 0;
+
+    .fade {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #919A96;
+        opacity: 0.30;
+    }
+
+    .modal {
+        position: fixed;
+        width: 600px;
+        height: 762px;
+        border-radius: 30px;
+        background-color: #fff;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .title {
+            display: flex;
+            height: 70px;
+            width: 487px;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 20px;
+
+            h1 {
+                font-family: Montserrat;
+                font-size: 26px;
+                font-weight: 600;
+                color: #3F3F55;
+
+            }
+
+            div {
+                display: flex;
+                width: 100%;
+                height: 44px;
+                gap: 10px;
+                align-items: center;
+            }
+
+            .closebtn {
+                position: fixed;
+                right: 30px;
+                cursor: pointer;
+            }
+        }
+
+        form {
+            display: flex;
+            width: 487px;
+            flex-direction: column;
+            height: 684px;
+            gap: 10px;
+            font-family: Nunito;
+
+            label {
+                display: flex;
+                height: 67px;
+                width: 100%;
+                flex-direction: column;
+
+                input {
+                    width: 100%;
+                    height: 44px;
+                    border-radius: 8px;
+                    border: 1px solid #D0D5DD;
+                }
+            }
+
+            .cpf_phone {
+                display: flex;
+                gap: 24px;
+            }
+
+            .cep_adress {
+                display: flex;
+                gap: 24px;
+            }
+
+            .city_UF {
+                display: flex;
+                gap: 24px;
+
+                .city {
+                    width: 303px;
+                }
+
+                .uf {
+                    width: 160px;
+                }
+            }
+
+            .buttons_editClient {
+                display: flex;
+                height: 68px;
+                width: 100%;
+                justify-content: space-between;
+
+                button {
+                    width: 231.5px;
+                    height: 33px;
+                    border-radius: 10px;
+                    cursor: pointer;
+                }
+
+                .cancel {
+                    color: #0E8750;
+                    background-color: #F8F8F9;
+                    border: 1px solid #DEDEE9;
+                }
+            }
+        }
+    }
+
+    .hide {
+        display: none;
+    }
+}

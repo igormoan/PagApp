@@ -1,0 +1,57 @@
+.client-status-expired {
+    color: #971D1D;
+    background-color: #FFEFEF;
+}
+
+.client-status-pendent {
+    color:#C5A605;
+    background-color: #FCF6DC;
+    
+}
+
+.client-status-paid {
+    color:#1FA7AF ;
+    background-color: #EEF6F6;
+}
+
+.edit-table-cell {
+    display: flex;
+    gap: 1rem;
+}
+.edit-table-cell div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit-table-cell div img {
+    opacity: 0.9;
+    width: 1.5rem ;
+}
+
+.edit-table-cell div img:hover {
+    opacity: 1;
+    scale: 1.05;
+    cursor: pointer;
+}
+
+.edit-table-cell div span {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.7rem;
+}
+
+.container-add-charge h2{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.table-row:hover {
+    background-color: rgba(211, 211, 211, 0.327);
+}

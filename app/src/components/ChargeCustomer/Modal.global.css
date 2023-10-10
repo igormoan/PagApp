@@ -1,0 +1,52 @@
+label {
+    width: 100%;
+}
+
+input[type="text"],
+textarea {
+    outline: none;
+    width: 100%;
+    height: 35px;
+    padding: 0 10px;
+    border-radius: 8px;
+    border: 1px solid var(--cinza-cinza-6);
+}
+
+textarea {
+    padding: 5px 10px;
+    resize: none;
+}
+
+button.button {
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    font-size: 1.1rem;
+    font-weight: 300;
+    border-radius: 10px;
+    padding: 2px 10px;
+    border: 1px solid var(--cinza-cinza-6);
+}
+
+button.button.outline {
+    background-color: #F8F8F9;
+    color: var(--principais-verde-dark);
+}
+
+button.button.filled {
+    background-color: var(--principais-rosa-normal);
+    color: white;
+    border-color: var(--principais-rosa-normal);
+}
+
+.alert_text {
+    font-family: Nunito;
+    color: red;
+    font-size: 14px;
+}
+
+.hide {
+    display: none;
+}

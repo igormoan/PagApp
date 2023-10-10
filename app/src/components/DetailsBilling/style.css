@@ -1,0 +1,153 @@
+.modal_details_billing {
+    position: fixed;
+    width: 600px;
+    height: 461px;
+    background-color: white;
+    border-radius: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px 20px 50px;
+    justify-content: space-around;
+    font-family: Nunito;
+    font-size: 16px;
+    color: #3f3f55;
+}
+
+.close_button_details_modal {
+    width: 100%;
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    justify-content: end;
+    z-index: 10;
+}
+
+.close_details_billing {
+    cursor: pointer;
+}
+
+.icon_title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: -45px;
+    justify-self: center;
+}
+
+.text_title {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 26px;
+    color: #3f3f55;
+}
+
+.name_details_billing {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 56px;
+    gap: 8px;
+}
+
+.topic {
+    font-family: Nunito;
+    font-weight: 700;
+    font-size: 16px;
+    color: #3f3f55;
+}
+
+.description_details_billing {
+    width: 489px;
+    height: 91px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.maturity_value,
+.id_status {
+    width: 100%;
+    height: 56px;
+    display: flex;
+}
+
+.maturity,
+.id {
+    display: flex;
+    width: 243px;
+    height: 100%;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.date_maturity,
+.value_billing,
+.value_id_billing {
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3f3f55;
+}
+
+.value,
+.status_billing {
+    width: 218px;
+    height: 56px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.value_status {
+    font-family: Nunito;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19.1px;
+    border-radius: 8px;
+}
+
+.value_status_defeated {
+    background-color: #FFEFEF;
+    color: #971D1D;
+}
+
+.value_status_defeated_pending {
+    background-color: #FCF6DC;
+    color: #C5A605;
+}
+
+.value_status_pay {
+    background-color: #EEF6F6;
+    color: #1FA7AF;
+}
+
+
+.text_name,
+.text_description,
+.value_billing,
+.value_id_billing,
+.value_status {
+    font-family: Nunito;
+font-weight: 400;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.text_name {
+    font-size: 16px;
+    line-height: 24px;
+    color: #3F3F55;
+}
+
+.text_description {
+font-size: 16px;
+line-height: 21px;
+color: #000000;
+word-wrap: break-word;
+}
